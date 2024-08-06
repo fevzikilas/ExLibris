@@ -1,27 +1,39 @@
-# exLibris.md
 
-![exlibris logo](https://user-images.githubusercontent.com/51405534/236638080-7ce8bd2e-d2e6-4f2b-8b83-817481d6dad3.jpg)
-
+<img src="https://github.com/user-attachments/assets/26448eb1-a990-4aab-b9a2-edb64b3ded8e" width="400" height="400" />
 
 ### Description
-Exlibris aims to develop an online library automation system that enables users to efficiently manage and access their library resources. The system will be web-based and will provide a comprehensive and efficient experience for both library staff and users.
+
+Exlibris is set to revolutionize library management with a cutting-edge online automation system designed to streamline the administration and access of library resources. This innovative web-based platform will provide a seamless and intuitive experience for both library staff and users, combining advanced technology with user-centric design to enhance operational efficiency and resource accessibility.
 
 ### Features
 
-- **Catalog Management:** The system will allow library staff to manage their library
-resources, including books, journals, articles, and other material. Catalog management
-will include adding, editing, and deleting records, as well as updating the status and
-location of library resources.
+- **Catalog Management:**
+- *Resource Handling:* Efficiently manage a broad spectrum of library materials including physical books, digital journals, articles, multimedia files, and more.
+- *Record Operations:* Effortlessly add, edit, and delete catalog records, enriching each entry with comprehensive metadata, tags, and classifications to enhance searchability and organization.
+- *-Status and Location Tracking:* Track the real-time status and location of each resource, whether it is available, checked out, or in transit, to improve inventory management and user satisfaction.
 
-- **Admin Management:** The system will enable library administrators to manage user accounts, including account creation, deletion, and access levels. Administrators can also monitor and track the activity of staff and administrators.
 
-- **Circulation Management:** The system will facilitate the lending and borrowing of library resources, including issuing and returning books, tracking overdue books, rating books and managing book reservations.
+- **Admin Management:**
+- User Account Administration: Create, modify, and manage user accounts for library patrons, staff, and administrators, with customizable roles and access levels to ensure appropriate permissions.
+- Activity Monitoring: Monitor and review user and staff activities to ensure adherence to library policies and operational standards.
+- Access Control: Implement detailed access controls to regulate system usage and protect sensitive data, enhancing overall security and efficiency.
 
-- **Reporting and Analytics:** The system will provide detailed reports and analytics to library
+- **Enhanced Circulation Management:**
+- Lending and Returning: Simplify the process of borrowing and returning resources, with features for handling renewals, extensions, and the management of overdue items.
+- Overdue Tracking: Automatically track overdue items, generate timely notifications for users, and manage late fees to encourage prompt returns.
+- Reservation System: Facilitate item reservations, allowing users to place holds, view reservation status, and manage their reservation queue with ease.
+- Rating and Reviews: Enable users to rate and review resources, fostering community engagement and providing valuable feedback for other patrons.
 
-- **Security and Access Control:** The system will ensure the security of the library's
-resources by implementing access controls, including user authentication, permission,
-and access restrictions.
+- **Detailed Reporting and Analytics:**
+- Custom Reports: Generate comprehensive reports covering various aspects of library operations, including circulation statistics, inventory status, and user engagement.
+- Data Visualization: Utilize interactive charts, graphs, and dashboards to visualize key performance indicators and trends, supporting informed decision-making.
+- Operational Insights: Analyze usage patterns, engagement metrics, and other critical data to optimize library services, improve resource allocation, and enhance overall effectiveness.
+
+- **Robust Security and Access Control:**
+- User Authentication: Implement secure authentication mechanisms, including options for single sign-on (SSO) and multi-factor authentication (MFA), to protect user accounts and system access.
+- Permission Management: Define and manage access levels and permissions to control user interactions with the system and safeguard sensitive information.
+- Data Protection: Employ advanced encryption and security measures to protect library data and ensure compliance with privacy regulations.
+
 
 ### ER DIAGRAM
 ![ER diagram V5](https://github.com/muratcanbastug/exLibris/assets/51405534/f7ea8f22-ff94-4445-a3b1-715f7899b730)
@@ -56,3 +68,7 @@ AUTH_REFRESH_TOKEN = {authentication_refresh_token}
 
 For testing the APIs in the backend, you can utilize the `exLibris.postman_collection.json` file. This file provides a collection of requests in the Postman format, which you can import into the **Postman** program. Using this collection, you can perform tests and interact with the APIs effectively.
 
+![deer](https://github.com/user-attachments/assets/39f06a98-9a20-4202-b32b-a6cddb1935ac)
+
+<img src="https://github.com/user-attachments/assets/d276911b-be1b-4528-ac9b-3c50ca41bf7b" width="400" height="400" />
+by @fevzikilas and @muratcanbastug 2023
